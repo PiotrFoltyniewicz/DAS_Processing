@@ -1,1 +1,65 @@
-*/data/*
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+pip-wheel-metadata/
+*.spec
+*.log
+
+# Virtual environments
+venv/
+.env/
+.env*/
+.venv*/
+venv*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+
+# MyPy / Pyre / Pytype
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ------------------------
+# VS Code
+# ------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------
+# PyCharm / JetBrains
+# ------------------------
+.idea/
+*.iml
+out/
+
+# ------------------------
+# Project Data (block uploads)
+# ------------------------
+data/
+data/**
